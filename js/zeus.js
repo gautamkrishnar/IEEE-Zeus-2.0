@@ -1,4 +1,20 @@
 var slides = document.querySelectorAll('div.evsec, section.shoutout');
+var video = document.getElementById("video"),
+	iframe = document.getElementById("iframe"),
+	play = document.getElementById("play"),
+	slides = document.querySelectorAll('div.person, section.shoutout');
+
+play.addEventListener("click", function(e){
+	e.preventDefault();
+	iframe.setAttribute("src", "https://www.youtube.com/embed/9d73B1XLQJY?rel=0&showinfo=0&autoplay=1");
+	video.style.display = "block";
+});
+
+video.addEventListener("click", function(e){
+	e.preventDefault();
+	iframe.setAttribute("src", "");
+	video.style.display = "none";
+});
 
 
 if(typeof window.orientation == 'undefined'){

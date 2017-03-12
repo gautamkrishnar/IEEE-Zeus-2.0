@@ -397,23 +397,36 @@ section {
 }
 #logo {
     max-width: 460px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 10px auto;
     width: 100%;
     padding: 0 0px;
     text-align: center
 }
 .logimg{
 	 display: block;
+     width: 100%;
+     height: inherit;
     margin-left: auto;
     margin-right: auto;
 	}
-#fixclear {
+#play {
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline;
-    margin: 60px auto
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+#play:hover svg path {
+    fill: #7550c8
+}
+#play:active {
+	-moz-transform: scale3d(.95, .95, .95);
+	-webkit-transform: scale3d(.95, .95, .95);
+	transform: scale3d(.95, .95, .95)
 }
 #collage {
     position: relative;
@@ -1146,9 +1159,9 @@ body.ff .evblock .evsec {
     #heading em {
         display: block
     }
-    #fixclear {
-        margin-top: 40px;
-        margin-bottom: 40px
+    #play {
+        margin-top: 10px;
+        margin-bottom: 10px
     }
     .btn.alone {
         margin: 80px auto
