@@ -349,8 +349,8 @@ section {
 #header #badge {
     float: left;
     margin: 0px 0 0 25px;
-    width: auto;
-    height: 46px
+    width: 140px;
+    height: auto;
 }
 #header #badge img {
     width: 100%;
