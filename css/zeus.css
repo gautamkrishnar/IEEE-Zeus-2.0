@@ -1126,6 +1126,10 @@ body.ff .evblock .evsec {
 		font-size:9px;}
 }
 @media only screen and (max-width: 460px) {
+    .logimg{
+        width: 90%;
+        height: inherit;
+    }
     #heading .meta {
         font-size: 18px
     }
